@@ -15,5 +15,6 @@ public class Main {
         System.out.println("Sottrazione: "+ calcolatrice.Sottrazione());
         System.out.println("Divisione: "+ calcolatrice.Divisione());
         System.out.println("Moltiplicazione: "+ calcolatrice.Moltiplicazione());
+        System.out.println("Il numero è: "+ calcolatrice.paridispari());
     }
 }

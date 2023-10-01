@@ -22,4 +22,11 @@ public class Calcolatrice {
     public int Moltiplicazione(){
         return x*y;
     }
+
+    public String paridispari(){
+        if(x % y == 0){
+
+            return "Pari";
+        }else return "Dispari";
+    }
 }
